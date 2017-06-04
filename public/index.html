@@ -88,7 +88,7 @@
                                 <i class="fa fa-search-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="Cabin">
+                        <img src="img/portfolio/cabin.png" class="img-responsive" alt="RockPaperScissors">
                     </a>
                 </div>
                 <div class="col-sm-4 portfolio-item">
@@ -256,20 +256,25 @@
                 <div class="row">
                     <div class="col-lg-8 col-lg-offset-2">
                         <div class="modal-body">
-                            <h2>Project Title 3</h2>
+                            <h2>Rock Paper Scissors</h2>
                             <img src="img/portfolio/cabin.png" class="img-responsive img-centered" alt="">
-                            <p>Info about project goes here...</p>
+                            <p class="portfolioModalText">
+                                This is a Rock Paper Scissors assignment I wrote in Scala.
+                                I chose to learn a new language so I could demonstrate that 
+                                I could adapt all my previous knowledge (theory) and apply it
+                                to a language I have not yet learnt. Learning Scala proved to 
+                                be a challenge, as I had to learn a new language and all the 
+                                syntax with it, however as Scala is a functional language, 
+                                it is easier to understand and I found it very convenient as I
+                                could import both Scala and Java libraries.
+                            </p>
                             <ul class="list-inline item-details">
-                                <li>Client:
-                                    <strong><a href="#">Client Here</a>
+                                <li>Download:
+                                    <strong><a id="DownloadRockPaperScissors" href="#">Download link</a>
                                     </strong>
                                 </li>
                                 <li>Date:
-                                    <strong><a href="#">Date Here</a>
-                                    </strong>
-                                </li>
-                                <li>Service:
-                                    <strong><a href="#">Service Here</a>
+                                    <strong><a href="#">April 2016</a>
                                     </strong>
                                 </li>
                             </ul>
@@ -294,7 +299,7 @@
                         <div class="modal-body">
                             <h2>Project Title 2</h2>
                             <img src="img/portfolio/cake.png" class="img-responsive img-centered" alt="">
-                            <p>Info about project goes here...</p>
+                            <p class="portfolioModalText">Info about project goes here...</p>
                             <ul class="list-inline item-details">
                                 <li>Client:
                                     <strong><a href="#">Client Here</a>
@@ -369,13 +374,8 @@
     <!-- Theme JavaScript -->
     <script src="js/freelancer.min.js"></script>
 
-    <!-- CV Download Javascript JQuery -->
-    <script>
-        $("#downloadCVBtn").click(function() {
-            window.location = 'misc/Kishans CV.pdf';
-        });
-    </script>
-
+    <!-- Custom Javascript Import -->
+    <script src="js/script.js"></script>
 </body>
 
 </html>
