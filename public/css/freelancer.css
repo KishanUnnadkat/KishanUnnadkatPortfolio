@@ -68,7 +68,7 @@ hr.star-primary:after {
 }
 header {
   text-align: center;
-  background: url(../img/mainDisplay.jpg) no-repeat;
+  background: url(../img/mainDisplay1.jpg) no-repeat;
   color: white;
 }
 header .container {
@@ -175,7 +175,7 @@ header .intro-text .skills {
   }
 }
 section {
-  padding: 100px 0;
+  padding: 50px 0;
 }
 section h2 {
   padding-bottom: 20px;
