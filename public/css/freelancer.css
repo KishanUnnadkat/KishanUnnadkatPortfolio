@@ -111,7 +111,7 @@ header .intro-text .skills {
   font-weight: 700;
   border: none;
 }
-.navbar-custom .navbar-brand {
+/* .navbar-custom .navbar-brand {
   color: white;
 }
 .navbar-custom .navbar-brand:hover,
@@ -119,7 +119,7 @@ header .intro-text .skills {
 .navbar-custom .navbar-brand:active,
 .navbar-custom .navbar-brand.active {
   color: white;
-}
+} */
 .navbar-custom .navbar-nav {
   letter-spacing: 1px;
 }
