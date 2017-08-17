@@ -188,6 +188,10 @@ section.success {
   color: white;
 }
 @media (max-width: 767px) {
+  header .container {
+    padding-top: 100px;
+    padding-bottom: 150px;
+  }
   section {
     padding: 75px 0;
   }
